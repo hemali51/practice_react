@@ -1,13 +1,8 @@
 import "./App.css";
-import Tabs_container from "../src/components/Tabs/Tabs_container";
+import { Tabs_content } from "./components/Tabs/Tabs_content";
+
 function App() {
-  return (
-    <div className="App">
-      <>
-        <Tabs_container />
-      </>
-    </div>
-  );
+  return <Tabs_content />;
 }
 
 export default App;

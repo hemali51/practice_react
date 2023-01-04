@@ -29,10 +29,29 @@ body {
   color: #000;
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 1px solid #fff;
 }
 .tabspart ul li.active {
   position: relative;
-  border-bottom: 1px solid #000;
+  border-color: #000;
 }
-.tabspart ul li.active {
+.tabspart {
+  max-width: 850px;
+  margin: auto;
+}
+.tabsabovepart {
+  background: #ebecf0;
+  padding-top: 14px;
+}
+.tabscontentpart {
+  text-align: left;
+  padding: 10px 20px;
+  min-height: 100px;
+  border: 1px solid #000;
+}
+.active_content {
+  display: block;
+}
+.content {
+  display: none;
 }
